@@ -28,7 +28,7 @@ public class Main {
         Arrays.fill(a, 0);
         while (check) {
             for (int i = 1; i <= n; i ++) {
-                System.out.print(a[i]);
+                System.out.print(a[i] + " ");
             }
             init();
             System.out.println();
