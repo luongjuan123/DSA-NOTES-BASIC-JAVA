@@ -50,7 +50,7 @@ class NodeManage {
             }
         }
     }
-    public Node minNode(Node root) {
+    public static Node minNode(Node root) {
         Node tmp = root;
         while (tmp != null && tmp.left != null) {
             tmp = tmp.left;
@@ -72,9 +72,12 @@ class NodeManage {
                 return root.right;
             }
             else {
-                
+                Node tmp = minNode(root);
+                root.data = tmp.data;
+                root.right = nodeDelete(root.right, tmp.data);
             }
         }
+        return root;
     }
 }
 
