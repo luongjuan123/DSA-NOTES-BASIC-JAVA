@@ -1,7 +1,6 @@
-package permutation_generation;
+package Generation.permutation_generation;
 
 import java.util.Scanner;
-import java.util.Arrays;
 
 public class Main {
     static int[] a = new int[100];
@@ -12,7 +11,6 @@ public class Main {
         for (int i = 1; i <= k; i ++) {
             a[i] = i;
         }
-
     }
     static void nextPermutation() {
         int i = n - 1;

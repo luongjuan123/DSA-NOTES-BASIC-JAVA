@@ -1,4 +1,4 @@
-package binary_string_generation_algorithm;
+package Generation.binary_string_generation_algorithm;
 
 import java.util.Arrays;
 import java.util.Scanner;

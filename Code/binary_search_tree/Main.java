@@ -72,7 +72,7 @@ class NodeManage {
                 return root.right;
             }
             else {
-                Node tmp = minNode(root);
+                Node tmp = minNode(root.right);
                 root.data = tmp.data;
                 root.right = nodeDelete(root.right, tmp.data);
             }

@@ -1,4 +1,4 @@
-package combination_generation;
+package Generation.combination_generation;
 
 import java.util.Arrays;
 import java.util.Scanner;
