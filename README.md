@@ -1,7 +1,7 @@
 # DSA BASIC NOTES FOR LEARNERS
 
 ## 📌 What This Repository Provides  
-- Fundamental **Data Structures and Algorithms (DSA)** implemented in **C++**.  
+- Fundamental **Data Structures and Algorithms (DSA)** implemented in **JAVA**.  
 - Includes **sample test cases** and **practice problems** to reinforce learning.  
 
 ## 🚀 How to Use This Repository  
